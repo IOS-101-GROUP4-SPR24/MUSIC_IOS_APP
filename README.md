@@ -257,15 +257,95 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # Milestone 2 Deliverables Checklist
 
 - [ ] Updated readme.md with new features implemented and NEW video with new features
+- [ ] NEW video with your new features at the top of your old one. Keep your old one!
 
+# Schema
 
-## Schema
-[This section will be completed in Unit 9]
+## Models
 
-### Models
-[To be added]
+### User
+| Property      | Type     | Description                               |
+|---------------|----------|-------------------------------------------|
+| userId        | String   | Unique id for the user                    |
+| username      | String   | User's username                           |
+| email         | String   | User's email address                      |
+| password      | String   | User's password (encrypted)               |
+| preferences   | [String] | Array of user's music preferences (genres, artists, etc.) |
 
-### Networking
-[To be detailed: List of network requests by screen and basic snippets for each relevant request]
+### Song
+| Property      | Type     | Description                               |
+|---------------|----------|-------------------------------------------|
+| songId        | String   | Unique id for the song                    |
+| title         | String   | Title of the song                         |
+| artist        | String   | Artist of the song                        |
+| album         | String   | Album name                                |
+| genre         | [String] | Array of song's genres                    |
+| releaseDate   | Date     | Song's release date                       |
+| imageUrl      | String   | URL to song's album cover image           |
+
+### Rating
+| Property      | Type     | Description                               |
+|---------------|----------|-------------------------------------------|
+| ratingId      | String   | Unique id for the rating                  |
+| userId        | String   | Id of the user who rated                  |
+| songId        | String   | Id of the song rated                      |
+| rating        | Integer  | Rating value                              |
+
+## Networking
+
+### List of Network Requests by Screen
+
+#### Login / Register Screen
+- **Login Request**
+  - (GET) Query logged user object by username and password
+- **Register Request**
+  - (POST) Create a new user object
+
+#### Music Recommendation Feed Screen
+- **Fetch Recommendations**
+  - (GET) Query for music recommendations based on user preferences
+
+#### Profile Screen
+- **Fetch User Preferences**
+  - (GET) Query for user's music preferences
+- **Update User Preferences**
+  - (PUT) Update user's music preferences
+
+#### Music Details Screen
+- **Fetch Song Details**
+  - (GET) Query for song details by songId
+
+### Basic Snippets for Parse Network Requests
+
+###### Login Request
+```swift
+PFUser.logInWithUsername(inBackground:username, password:password) {
+  (user: PFUser?, error: Error?) -> Void in
+  if user != nil {
+    // Do stuff after successful login.
+  } else {
+    // The login failed. Check error to see why.
+  }
+}
+```
+
+###### Fetch Recommendations
+```swift
+let query = PFQuery(className:"Song")
+query.whereKey("genre", containedIn: currentUser.preferences)
+query.findObjectsInBackground { (songs: [PFObject]?, error: Error?) -> Void in
+  if let error = error {
+    // Log details of the failure
+    print(error.localizedDescription)
+  } else if let songs = songs {
+    // Update feed with recommendations
+  }
+}
+
+```
+
+## Optional: Third-Party Music API Endpoints
+
+When integrating third-party music APIs such as Spotify or Apple Music into an application, developers typically utilize the SDKs provided by these platforms or make direct HTTP requests to their API endpoints. These endpoints enable the retrieval of song data, facilitate music searches, among other functionalities. The documentation provided by these third-party APIs offers detailed information on specific endpoints and the data structures they return, guiding developers in efficiently incorporating music-related features into their applications.
 
 **[BONUS]** For digital wireframes, mockups, and interactive prototypes, tools like Figma, Sketch, or Adobe XD are recommended to bring your app design to life.
