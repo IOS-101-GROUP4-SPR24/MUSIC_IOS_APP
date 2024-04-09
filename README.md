@@ -171,6 +171,37 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 ## Conclusion
 These wireframes outline the key screens and functionalities of TuneTrek, ensuring a user-friendly experience for discovering and managing music recommendations.
 
+## License
+
+```plaintext
+Copyright [2024] [ANDROID102-GROUP4-SPR24]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+# Milestone 1 Deliverables Checklist
+
+- [x] Creation of GitHub Organization and Group Project Repo
+- [x] Updated Course Portal group info: Group Name + App Description
+
+### `brainstorming.md`
+- [x] Initial brainstorming ideas - 6 minimum
+- [x] Evaluation of top 3 ideas
+- [x] Final app idea chosen
+
+### `readme.md` (template)
+- [x] App Overview: Description and evaluation
+- [x] App Spec: User features, screens & navigation flows
+- [x] Wireframe images
+- [x] [BONUS] Digital Wireframe/Mockup Images
+- [ ] [BONUS] Interactive Prototype video/gif
 
 ## Schema
 [This section will be completed in Unit 9]
