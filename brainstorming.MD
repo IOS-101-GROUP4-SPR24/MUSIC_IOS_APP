@@ -1,6 +1,8 @@
 # Mobile App Development Brainstorming
 
-Welcome to the Mobile App Development Brainstorming Temple! Here, you will embark on a journey of creativity and innovation to craft groundbreaking ideas for mobile applications. Below are sacred sections awaiting your input. May your imagination soar and your ideas flourish within these hallowed halls.
+**Status:** Completed
+
+**Authors:** Brian Bazurto, Julian Martinez, Yadisa Belliard
 
 ## Favorite Existing Apps - List
 
