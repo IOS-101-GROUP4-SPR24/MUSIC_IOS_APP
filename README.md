@@ -27,13 +27,17 @@ TuneTrek is an innovative music recommendation app designed to explore and disco
 ### 1. User Stories (Required and Optional)
 
 #### Required Must-have Stories
+##### Part 1
 - User can log in to access their personalized music recommendations.
+- User can rate songs and artists to refine future music suggestions.
+- User receives daily/weekly personalized music and playlist recommendations.
+
+#### Optional Nice-to-have Stories
+##### Part 2
 - User can connect their existing music streaming services to TuneTrek.
 - User receives daily/weekly personalized music and playlist recommendations.
 - User can save and export recommendations to their preferred music streaming service.
-- User can rate songs and artists to refine future music suggestions.
-
-#### Optional Nice-to-have Stories
+##### Part 3
 - Social integration to share music discoveries with friends.
 - Location-based live music event recommendations.
 - Advanced filtering options for recommendations (e.g., genres, moods, decades).
