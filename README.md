@@ -254,6 +254,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 - Integrating with Apple Music API to access a vast music library and adding features like playing previews of songs.
 - Enhancing the app with additional iOS features, such as widgets for quick access to music recommendations or using Core Location for location-based event suggestions.
 
+# Milestone 2 Deliverables Checklist
+
+- [ ] Updated readme.md with new features implemented and NEW video with new features
 
 
 ## Schema
