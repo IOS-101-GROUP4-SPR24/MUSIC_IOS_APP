@@ -1,5 +1,8 @@
 # TuneTrek
 
+**Status:** Completed
+
+**Authors:** Brian Bazurto, Julian Martinez, Yadisa Belliard
 ## Table of Contents
 - [Overview](#overview)
 - [Product Spec](#product-spec)
