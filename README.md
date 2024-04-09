@@ -207,6 +207,55 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 - [x] [BONUS] Digital Wireframe/Mockup Images
 - [ ] [BONUS] Interactive Prototype video/gif
 
+# Sprint Planning for TuneTrek iOS App
+
+## Week 1: Sprint 1 - Setup and User Authentication
+
+### Main Features to Develop:
+- Initialize the iOS project in Xcode with Swift as the programming language.
+- Set up necessary libraries for networking and user authentication (e.g., Alamofire for networking, Firebase for authentication).
+
+### Goals for Sprint 1:
+- **Specific:** Set up the iOS project in Xcode and implement user login functionality using Swift and Firebase Authentication.
+- **Measurable:** A user can log in using their email and password, with authentication handled by Firebase.
+- **Achievable:** Firebase provides easy-to-integrate SDKs for iOS apps, making it a practical choice for user authentication.
+- **Relevant:** Secure user authentication is critical for personalizing the app experience.
+- **Time-bound:** Complete setup and authentication by the end of Week 1.
+
+### Tasks:
+1. Create a new iOS project in Xcode.
+2. Integrate Firebase into the project for user authentication.
+3. Design and implement the Login / Register Screen using SwiftUI or Storyboards, depending on your preference.
+4. Test authentication flow to ensure secure login and registration.
+
+## Week 2: Sprint 2 - Personalized Music Recommendations
+
+### Main Features to Develop:
+- Backend or middleware integration for fetching music recommendations based on user preferences.
+- Implement UI for displaying music recommendations and handling user ratings.
+- Integrate Core Data or a similar persistence framework for storing user preferences and ratings locally.
+
+### Goals for Sprint 2:
+- **Specific:** Develop the music recommendation feed and rating system, and integrate it with a backend service for personalized recommendations.
+- **Measurable:** Users can rate songs/artists, and the app displays personalized recommendations fetched from a backend service.
+- **Achievable:** Start with a simplified version of the recommendation logic that can later be expanded.
+- **Relevant:** Personalized music recommendations are key to the app’s value proposition.
+- **Time-bound:** Complete the recommendation system and UI by the end of Week 2.
+
+### Tasks:
+1. Design and implement the UI for displaying music recommendations using SwiftUI.
+2. Create a model for recommendations and ratings, and integrate Core Data for local persistence.
+3. Develop or integrate a backend service (this could initially be a mock server or Firebase Firestore) to simulate fetching personalized music recommendations.
+4. Implement functionality for users to rate songs and artists, influencing their future recommendations.
+5. Ensure the app can fetch and display new recommendations based on user ratings.
+
+### Considerations for Future Sprints:
+- Refining the music recommendation algorithm based on more detailed user preferences and listening history.
+- Integrating with Apple Music API to access a vast music library and adding features like playing previews of songs.
+- Enhancing the app with additional iOS features, such as widgets for quick access to music recommendations or using Core Location for location-based event suggestions.
+
+
+
 ## Schema
 [This section will be completed in Unit 9]
 
