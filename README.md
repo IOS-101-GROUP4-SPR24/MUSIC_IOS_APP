@@ -72,7 +72,6 @@ TuneTrek is an innovative music recommendation app designed to explore and disco
   - => None (Edit Preferences)
 
 ## Wireframes
-[Insert hand sketched wireframes and optionally add digital wireframes, mockups, and interactive prototype]
 
 # TuneTrek: Wireframe Details
 
@@ -90,7 +89,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="https://github.com/ANDROID102-GROUP4-SPR24/MentalMate/blob/master/Wireframe%202.jpg" width="400" alt="Image 1">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_1_Login%20%20Register%20Screen.png" width="400" alt="Image 1">
      <br> <!-- Line break -->
     <figcaption> Wireframe 1</figcaption>
   </figure>
@@ -105,7 +104,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="https://github.com/ANDROID102-GROUP4-SPR24/MentalMate/blob/master/Wireframe%202.jpg" width="400" alt="Image 2">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_2_Music%20Recommendation.png" width="400" alt="Image 2">
      <br> <!-- Line break -->
     <figcaption> Wireframe 2</figcaption>
   </figure>
@@ -120,7 +119,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="" width="400" alt="Image 3">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_3_Settings%20Screen.png" width="400" alt="Image 3">
      <br> <!-- Line break -->
     <figcaption> Wireframe 3</figcaption>
   </figure>
@@ -135,7 +134,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="" width="400" alt="Image 4">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_4_Profile.png" width="400" alt="Image 4">
      <br> <!-- Line break -->
     <figcaption> Wireframe 4</figcaption>
   </figure>
@@ -149,7 +148,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="" width="400" alt="Image 5">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_5_Music%20Details.png" width="400" alt="Image 5">
      <br> <!-- Line break -->
     <figcaption> Wireframe 5</figcaption>
   </figure>
@@ -163,7 +162,7 @@ This document outlines the wireframe details for TuneTrek, a music recommendatio
 <!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
 <div align="center">
   <figure>
-    <img src="" width="400" alt="Image 6">
+    <img src="https://github.com/IOS-101-GROUP4-SPR24/TuneTrek_IOS_APP/blob/main/Resources/TUNETREK_6_Tab%20Navigation.png" width="400" alt="Image 6">
      <br> <!-- Line break -->
     <figcaption> Wireframe 6</figcaption>
   </figure>
