@@ -74,6 +74,105 @@ TuneTrek is an innovative music recommendation app designed to explore and disco
 ## Wireframes
 [Insert hand sketched wireframes and optionally add digital wireframes, mockups, and interactive prototype]
 
+# TuneTrek: Wireframe Details
+
+## Overview
+This document outlines the wireframe details for TuneTrek, a music recommendation application designed to provide users with a seamless experience in discovering music, managing preferences, and integrating existing music streaming services.
+
+## Screens
+
+### 1. Login / Register Screen
+- **Layout:** Centered text fields for username and password.
+- **Buttons:** Below the fields, buttons for "Log In" and "Register" are placed. Optionally, include a button or link for logging in with existing music streaming services, indicated with icons of those services.
+
+**Image Login / Register Screen Wireframe:**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="https://github.com/ANDROID102-GROUP4-SPR24/MentalMate/blob/master/Wireframe%202.jpg" width="400" alt="Image 1">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 1</figcaption>
+  </figure>
+</div>
+
+### 2. Music Recommendation Feed Screen
+- **Layout:** A list or grid of music recommendations.
+- **Design Elements:** Each recommendation features a small image (e.g., album cover or artist photo), song name, and artist. Include a subtle button or icon for saving or exporting recommendations.
+
+**Image Login / Register Screen Wireframe:**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="https://github.com/ANDROID102-GROUP4-SPR24/MentalMate/blob/master/Wireframe%202.jpg" width="400" alt="Image 2">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 2</figcaption>
+  </figure>
+</div>
+
+### 3. Settings Screen
+- **Layout:** List-based layout for settings options.
+- **Details:** Each option leads to a new screen or popup where users can connect music streaming accounts or adjust preferences.
+
+**Image Settings Screen Wireframe:**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="" width="400" alt="Image 3">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 3</figcaption>
+  </figure>
+</div>
+
+### 4. Profile Screen
+- **Layout:** Presents a form or list for users to add or remove music preferences.
+- **Functionality:** Allows toggling settings related to notifications or account details for a personalized experience.
+
+**Image Profile Screen Wireframe:**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="" width="400" alt="Image 4">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 4</figcaption>
+  </figure>
+</div>
+
+### 5. Music Details Screen
+- **Details:** Displays more information about a song or artist, including a larger image, song/artist name, album name, release date, and a button to save to favorites or export.
+
+**Image Music Details Screen Wireframe:**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="" width="400" alt="Image 5">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 5</figcaption>
+  </figure>
+</div>
+
+### 6. Tab Navigation
+- **Design:** Minimal icons for each main tab (Home for music recommendations, Search for finding music, and Profile for user settings/preferences) placed at the bottom of the screen for easy navigation.
+
+**Image Tab Navigation**
+
+<!-- Single row of images with names [Add picture of your hand sketched wireframe here] -->
+<div align="center">
+  <figure>
+    <img src="" width="400" alt="Image 6">
+     <br> <!-- Line break -->
+    <figcaption> Wireframe 6</figcaption>
+  </figure>
+</div>
+
+## Conclusion
+These wireframes outline the key screens and functionalities of TuneTrek, ensuring a user-friendly experience for discovering and managing music recommendations.
+
+
 ## Schema
 [This section will be completed in Unit 9]
 
