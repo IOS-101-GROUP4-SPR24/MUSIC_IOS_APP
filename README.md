@@ -2,7 +2,7 @@
 
 **Status:** Completed
 
-**Authors:** Brian Bazurto, Julian Martinez, Yadisa Belliard
+**Authors:** Brian Bazurto
 ## Table of Contents
 - [Overview](#overview)
 - [Product Spec](#product-spec)
