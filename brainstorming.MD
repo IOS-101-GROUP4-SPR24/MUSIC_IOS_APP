@@ -2,7 +2,7 @@
 
 **Status:** Completed
 
-**Authors:** Brian Bazurto, Julian Martinez, Yadisa Belliard
+**Authors:** Brian Bazurto
 
 ## Favorite Existing Apps - List
 
